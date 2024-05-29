@@ -175,6 +175,7 @@ namespace benchmark
         static void Main(string[] args)
         {
             var Summary = BenchmarkRunner.Run<Benchmarks>();
+            Console.WriteLine(Summary);
         }
     }
 }
